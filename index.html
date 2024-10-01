@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>TopLingo</title>
+</head>
+<body>  
+    <div class="listra">
+    </div>
+    <button class="lua">
+        <div class="modo-botao">
+            <button onclick="toggleDarkMode()" id="button-modo"><img src="./img/lua 1.png" alt=""></button>
+        </div>  
+    </button>
+    <header>
+        <div class="conteudo">
+            <h1>TopLingo </h1>
+        </div>
+    </header>
+    <main>
+        <div>
+            
+            
+        </div>
+        <div class="text1">
+            <input rows="8" placeholder="Digitar texto" id="inputFrase"></input>
+            <select name="" id="from"></select>
+        </div>
+        <div class="text2">
+            <input rows="8" placeholder="Tradução" disabled id="inputTraducao"></input>
+            <select name="" id="to"></select>
+        </div>
+        <div class="aa">
+            <button id="btnTraduzir" onclick="traduzirFrase()">Traduzir</button>
+            <button id="btnFala" class="btnAdicionais"><img src="./icone-de-microphone-violet.png" alt=""></button>
+            <button id="btnOuvir" class="btnAdicionais"><img src="./icone-de-haut-parleur-violet.png" alt=""></button>
+        </div>
+    </main>
+    <footer>
+       <p> 🚀  Maria Clara | Gustavo Campos   🚀</p>
+    </footer>
+</body>
+</html>
